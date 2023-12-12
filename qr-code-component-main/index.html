@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | QR code component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+
+    html, body{
+      display: flex;
+      flex-direction: column;
+      height:100%;
+    }
+
+    body {background-color: #d5e1ef;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .qr {background-color: white;
+      width: 305px;
+      height: 485px;
+      border-radius: 20px;
+      align-items: center;
+      text-align: center;
+      padding: 15px;
+      box-shadow: 5px 5px 15px lightgray;
+    }
+
+    #imagen{width: 290px;
+    border-radius: 20px;
+  overflow: hidden;}
+      
+  .negrita{font-size: 19pt;
+    font-family: Outfit;
+    
+  font-weight: 700;
+  line-height: 1.5;}
+
+    .comun{ font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    color: gray;
+line-height: 1.5;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="qr">
+    <img id="imagen" src="images/image-qr-code.png" alt="">
+    <p class="negrita"> Improve your front-end skills by building projects</p>
+    <p class="comun">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+  </div>
+
+  
+</body>
+</html>

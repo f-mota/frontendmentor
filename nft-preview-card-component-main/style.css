@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+html, body{ width: 99%;
+    height: 99%;
+}
+
+body{display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0d1a2d;
+}
+
+.card{margin: 0 auto;
+    width: 290px;
+    height: 540px;
+    background-color: #15273F;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    border-radius: 15px;
+    justify-content: space-evenly;
+    box-shadow: 0 0 20px 20px #0c1729;
+}
+
+#imagen{width: 300px;
+    height: auto;
+    border-radius: 15px;
+    margin-top: 25px;
+}
+
+.descripcion{align-items: start;
+}
+
+#titulo{color: white;
+    font-family: 'Outfit', sans-serif;
+    font-size: 20px;
+    margin: 5;
+}
+
+#parrafo{
+    font-family: 'Outfit', sans-serif;
+    color: #87abd5;
+    line-height: 1.5;
+    font-size: 18px;
+    margin: 0;
+}
+
+.abajo{display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'Outfit', sans-serif;
+    width: 100%;
+}
+.left, .right{display: flex;
+    align-items: center;
+}
+
+#et{height: 19px;
+    width: auto;
+    margin-right: 7px;
+}
+
+#cel{ font-size: 15px;
+    color: #00fbfd;
+}
+
+#blanc{color: white;
+
+}
+
+#clock{ margin-right: 7px;}
+
+hr{width: 95%;
+    border-color: #87abd5;
+}
+
+#avatar{height: 33px;
+    border: 2px solid white;
+    border-radius: 30px;
+    margin-right: 15px;
+
+}
+#creditos{display: flex;
+    flex-direction: row;
+    width: 100%;
+    color: #87abd5 ;
+    font-family: 'Outfit', sans-serif;
+    align-items: center;
+
+}
+
+#blanco{color: #87abd5;}
+

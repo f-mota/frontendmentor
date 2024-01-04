@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@600;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Figtree', sans-serif;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+.flex{display: flex;}
+
+.main{
+    height: 100%;
+    width: 100%;
+    background-color: hsl(47, 88%, 63%);
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    background-color: white;
+    width: 332px;
+    height: 467px;
+    border: solid 2px black;
+    border-radius: 20px;
+    box-shadow: 10px 10px black;
+    flex-direction: column;
+    padding: 24px;
+    justify-content: space-between;
+}
+
+.imagen{
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.learning{
+    height: 29px;
+    width: 80px;
+    background-color: hsl(47, 88%, 63%);
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+
+}
+
+#parrafo{
+    color: hsl(0, 0%, 50%);
+}
+
+#foto{
+    height: 30px;
+}
+
+.autor{
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+}
+
+#titulo:hover{
+    color: hsl(47, 88%, 63%);
+    cursor: pointer;
+}

@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+html, body{
+    height: 100%;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: #e0e8ff;
+    font-family: 'Red Hat Display', sans-serif;
+    margin: 0 auto;
+}
+.flex{display: flex;}
+
+.card{width: 450px;
+    height: 700px;
+    overflow: hidden;
+    border-radius: 15px;
+    background-color: white;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.subcard{
+    justify-content: space-between;
+    margin: 20px;
+}
+
+#imagen-top{height: 220px;
+    width: auto;
+}
+
+
+#titulo{color: #2d3b60;
+    margin: 0;
+}
+
+#parrafo{width: 300px;
+    text-align: center;
+    color: #77818d;
+    margin: 0;
+}
+
+.plan{
+    width: 357px;
+    height: 94px;
+    background-color: #f8f9fe;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 15px;
+    
+}
+
+#icono-musica{
+    height: 48px;
+    width: auto;
+}
+
+#annualplan{
+    color: #222645;
+    margin-bottom: 0;
+    
+}
+
+#plan-selec{
+    text-align: left;
+    line-height: 0.5;
+    flex-grow: 0.3;
+    
+}
+
+#precio{
+    color: #727693;
+}
+
+#change{
+    font-size: small;
+}
+
+#change:hover{
+    color: #8371ff;
+    text-decoration: none;
+}
+
+#boton{
+    background-color: #382ae1;
+    color: white;
+    height: 50px;
+    width: 355px;
+    font-size: medium;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 10px 20px 0px lightgray;
+}
+
+#boton:hover{
+    background-color: #8371ff ;
+    cursor: pointer;
+}
+
+#cancel{
+    text-decoration: none;
+    margin-bottom: 20px;
+    color: #727693;
+}
+
+#cancel:hover{
+    color: #2d3b60;
+}
+
